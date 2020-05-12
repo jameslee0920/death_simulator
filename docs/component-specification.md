@@ -1,8 +1,13 @@
 # Component Specification
 
-
 ## Software Components
+![image]("../assets/component-specifications_death-simulator.pdf)
 
+* Data Wrangler:
+* Probability Converter:
+* Death simulator:
+* Interactive User Interface:
+* Mass Death Module:
 
 ## Interactions
 
