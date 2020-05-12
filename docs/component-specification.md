@@ -1,7 +1,7 @@
 # Component Specification
 
 ## Software Components
-![image]("../assets/component-specifications_death-simulator.pdf)
+![component-specification](assets/component-specifications_death-simulator.png)
 
 * Data Wrangler:
 * Probability Converter:
