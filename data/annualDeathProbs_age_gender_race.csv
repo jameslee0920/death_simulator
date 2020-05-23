@@ -1,0 +1,681 @@
+age,gender,race,annual_death_prob
+0,Female,American Indian or Alaska Native,0.003714324730301789
+0,Female,Asian or Pacific Islander,0.003723020965583502
+0,Female,Black or African American,0.009152014464888896
+0,Female,White,0.004184458154349721
+0,Male,American Indian or Alaska Native,0.0047766078167471564
+0,Male,Asian or Pacific Islander,0.004308410376088322
+0,Male,Black or African American,0.01127709214664963
+0,Male,White,0.005136869875028897
+1,Female,American Indian or Alaska Native,0.0003788391286700041
+1,Female,Asian or Pacific Islander,0.00020596134517473762
+1,Female,Black or African American,0.0005203467761322107
+1,Female,White,0.0002857044580425103
+1,Male,American Indian or Alaska Native,0.0005505886054377179
+1,Male,Asian or Pacific Islander,0.0003282121813606739
+1,Male,Black or African American,0.000675828551111738
+1,Male,White,0.0003598765717007245
+2,Female,American Indian or Alaska Native,7.967281032559622e-05
+2,Female,Asian or Pacific Islander,0.00016581129095933676
+2,Female,Black or African American,0.00034805372521604615
+2,Female,White,0.0002026318709607163
+2,Male,American Indian or Alaska Native,0.00020654222497611856
+2,Male,Asian or Pacific Islander,0.00013549319523063953
+2,Male,Black or African American,0.0004957658140647608
+2,Male,White,0.0002720906022271996
+3,Female,American Indian or Alaska Native,5.270092226613966e-05
+3,Female,Asian or Pacific Islander,9.144738346174071e-05
+3,Female,Black or African American,0.00022419738810042862
+3,Female,White,0.00013727942236097386
+3,Male,American Indian or Alaska Native,0.0003594628597838088
+3,Male,Asian or Pacific Islander,0.0001511237127498039
+3,Male,Black or African American,0.0003217851386523752
+3,Male,White,0.00019932736784302385
+4,Female,American Indian or Alaska Native,0.00010537685397402461
+4,Female,Asian or Pacific Islander,9.326618168252192e-05
+4,Female,Black or African American,0.00017734479374800487
+4,Female,White,0.0001152091904017029
+4,Male,American Indian or Alaska Native,0.0001783303187017553
+4,Male,Asian or Pacific Islander,0.00011068313631735069
+4,Male,Black or African American,0.0002600416066570651
+4,Male,White,0.00015196131182395966
+5,Female,American Indian or Alaska Native,0.00015949387277705416
+5,Female,Asian or Pacific Islander,0.00011490378722882706
+5,Female,Black or African American,0.00011897927678446606
+5,Female,White,0.00011605142245395884
+5,Male,American Indian or Alaska Native,0.0002567328181561449
+5,Male,Asian or Pacific Islander,8.69080295776994e-05
+5,Male,Black or African American,0.00021863268270931922
+5,Male,White,0.000128535715878358
+6,Female,American Indian or Alaska Native,7.874842503149937e-05
+6,Female,Asian or Pacific Islander,0.0001263862997251098
+6,Female,Black or African American,0.00019384121720355713
+6,Female,White,8.749073828512684e-05
+6,Male,American Indian or Alaska Native,0.00015166068449522268
+6,Male,Asian or Pacific Islander,0.00010535266805631852
+6,Male,Black or African American,0.00016962650543523574
+6,Male,White,0.00011031641227527927
+7,Female,American Indian or Alaska Native,5.3384582532564594e-05
+7,Female,Asian or Pacific Islander,7.241653993772178e-05
+7,Female,Black or African American,0.00016619676509867934
+7,Female,White,7.342480222456941e-05
+7,Male,American Indian or Alaska Native,7.787151200519143e-05
+7,Male,Asian or Pacific Islander,0.00013003602762883128
+7,Male,Black or African American,0.00020616077104128368
+7,Male,White,9.69405311570719e-05
+8,Female,American Indian or Alaska Native,5.222886689473272e-05
+8,Female,Asian or Pacific Islander,0.00010068465565847765
+8,Female,Black or African American,0.00020438751873552255
+8,Female,White,9.25050641458474e-05
+8,Male,American Indian or Alaska Native,0.00015343306482546988
+8,Male,Asian or Pacific Islander,9.67175549802101e-05
+8,Male,Black or African American,0.0001863569509709197
+8,Male,White,9.823493790194732e-05
+9,Female,American Indian or Alaska Native,0.00010549914281946459
+9,Female,Asian or Pacific Islander,3.879608004407235e-05
+9,Female,Black or African American,0.0001851264148947424
+9,Female,White,8.988290217699093e-05
+9,Male,American Indian or Alaska Native,0.00010256147278274916
+9,Male,Asian or Pacific Islander,9.777670808387737e-05
+9,Male,Black or African American,0.0002481368346296344
+9,Male,White,0.00010414624979704419
+10,Female,American Indian or Alaska Native,0.00017902813299232738
+10,Female,Asian or Pacific Islander,7.539829147471519e-05
+10,Female,Black or African American,0.0001938603293344889
+10,Female,White,8.973697241865376e-05
+10,Male,American Indian or Alaska Native,9.92063492063492e-05
+10,Male,Asian or Pacific Islander,7.275584593222065e-05
+10,Male,Black or African American,0.00018304249914025494
+10,Male,White,0.00010585271565455186
+11,Female,American Indian or Alaska Native,0.00020378012124917214
+11,Female,Asian or Pacific Islander,7.663187579505572e-05
+11,Female,Black or African American,0.0001782792600835612
+11,Female,White,0.00010853310682192317
+11,Male,American Indian or Alaska Native,9.818119339240569e-05
+11,Male,Asian or Pacific Islander,8.100326222228768e-05
+11,Male,Black or African American,0.00015543077918004714
+11,Male,White,0.00010931962200256156
+12,Female,American Indian or Alaska Native,0.00023357209592027406
+12,Female,Asian or Pacific Islander,0.00010011628892020731
+12,Female,Black or African American,0.0002031341539168092
+12,Female,White,0.00010517349053177285
+12,Male,American Indian or Alaska Native,0.00012554927809165097
+12,Male,Asian or Pacific Islander,0.00011191023307171208
+12,Male,Black or African American,0.000240323406641509
+12,Male,White,0.00014505990102307699
+13,Female,American Indian or Alaska Native,5.19588485919152e-05
+13,Female,Asian or Pacific Islander,0.0001203586688331227
+13,Female,Black or African American,0.00014707957004739565
+13,Female,White,0.0001411413236311742
+13,Male,American Indian or Alaska Native,0.00010144302705992747
+13,Male,Asian or Pacific Islander,0.00014874754566549653
+13,Male,Black or African American,0.000287596737084292
+13,Male,White,0.00016834953853520936
+14,Female,American Indian or Alaska Native,0.0003986922892911251
+14,Female,Asian or Pacific Islander,0.0001199265449911929
+14,Female,Black or African American,0.0001876928013756066
+14,Female,White,0.00014804281554059976
+14,Male,American Indian or Alaska Native,0.00023434448639500066
+14,Male,Asian or Pacific Islander,0.00014900131866167016
+14,Male,Black or African American,0.0003229462089050949
+14,Male,White,0.00026668899411733696
+15,Female,American Indian or Alaska Native,0.00018949135107333316
+15,Female,Asian or Pacific Islander,0.00015746850629874026
+15,Female,Black or African American,0.0002594461283006889
+15,Female,White,0.00018541853010113144
+15,Male,American Indian or Alaska Native,0.00036905232634770003
+15,Male,Asian or Pacific Islander,0.00023929527541390606
+15,Male,Black or African American,0.0005212297468185736
+15,Male,White,0.00035386587547166513
+16,Female,American Indian or Alaska Native,0.00029994001199760045
+16,Female,Asian or Pacific Islander,0.00013178294573643412
+16,Female,Black or African American,0.00025563217837712665
+16,Female,White,0.00023528409407431438
+16,Male,American Indian or Alaska Native,0.0005280946345585128
+16,Male,Asian or Pacific Islander,0.00021594940613913312
+16,Male,Black or African American,0.0007070379492393499
+16,Male,White,0.0004577501610892325
+17,Female,American Indian or Alaska Native,0.0002691138082295003
+17,Female,Asian or Pacific Islander,0.00014892143649617644
+17,Female,Black or African American,0.0002855910569200462
+17,Female,White,0.00029835743348582
+17,Male,American Indian or Alaska Native,0.0009163742996282138
+17,Male,Asian or Pacific Islander,0.00037510480869654757
+17,Male,Black or African American,0.0011004856245538095
+17,Male,White,0.0005852526116439611
+18,Female,American Indian or Alaska Native,0.00031673969276249805
+18,Female,Asian or Pacific Islander,0.00019103038852642096
+18,Female,Black or African American,0.00042583029810959737
+18,Female,White,0.00034223977621812416
+18,Male,American Indian or Alaska Native,0.001142944224321853
+18,Male,Asian or Pacific Islander,0.0004495587798104602
+18,Male,Black or African American,0.0015133404248319424
+18,Male,White,0.0007866872372587547
+19,Female,American Indian or Alaska Native,0.0004843266514193462
+19,Female,Asian or Pacific Islander,0.0001633926250510602
+19,Female,Black or African American,0.0005112207137338283
+19,Female,White,0.00037734162505905937
+19,Male,American Indian or Alaska Native,0.0012068106094393577
+19,Male,Asian or Pacific Islander,0.0004137360364087712
+19,Male,Black or African American,0.0016546540651204533
+19,Male,White,0.0008927483001696343
+20,Female,American Indian or Alaska Native,0.00026938203760573247
+20,Female,Asian or Pacific Islander,0.00028742652659413936
+20,Female,Black or African American,0.0005606498914824565
+20,Female,White,0.00041280751284112537
+20,Male,American Indian or Alaska Native,0.0011030280746907582
+20,Male,Asian or Pacific Islander,0.00045756925134630955
+20,Male,Black or African American,0.0016585970614351052
+20,Male,White,0.001020416210907048
+21,Female,American Indian or Alaska Native,0.0004901827292285068
+21,Female,Asian or Pacific Islander,0.0002499184294015148
+21,Female,Black or African American,0.0005981552545193952
+21,Female,White,0.00043573178768348443
+21,Male,American Indian or Alaska Native,0.0015575501583949313
+21,Male,Asian or Pacific Islander,0.0005702376669133171
+21,Male,Black or African American,0.001998781641527496
+21,Male,White,0.0011620798808868122
+22,Female,American Indian or Alaska Native,0.000767670121182212
+22,Female,Asian or Pacific Islander,0.00017909259750596975
+22,Female,Black or African American,0.0005314263599027259
+22,Female,White,0.0004874548345593465
+22,Male,American Indian or Alaska Native,0.0016027746393757062
+22,Male,Asian or Pacific Islander,0.0006074941512531183
+22,Male,Black or African American,0.0019185285475924292
+22,Male,White,0.0012640719276079415
+23,Female,American Indian or Alaska Native,0.0005101629836479338
+23,Female,Asian or Pacific Islander,0.00023583703023813166
+23,Female,Black or African American,0.0006894642115464489
+23,Female,White,0.0005008981944642349
+23,Male,American Indian or Alaska Native,0.0015249024320901502
+23,Male,Asian or Pacific Islander,0.0005276717261073346
+23,Male,Black or African American,0.0020733677913683693
+23,Male,White,0.001305522896275824
+24,Female,American Indian or Alaska Native,0.0004979296608836942
+24,Female,Asian or Pacific Islander,0.00023871461361897476
+24,Female,Black or African American,0.0006692889336261915
+24,Female,White,0.0005397713332351931
+24,Male,American Indian or Alaska Native,0.001496740150688754
+24,Male,Asian or Pacific Islander,0.0006279115661310482
+24,Male,Black or African American,0.0021224330380085104
+24,Male,White,0.0013806756291093601
+25,Female,American Indian or Alaska Native,0.0007209248435850563
+25,Female,Asian or Pacific Islander,0.00023023519410597903
+25,Female,Black or African American,0.0008586125341818854
+25,Female,White,0.0005467276137493803
+25,Male,American Indian or Alaska Native,0.00142499140091396
+25,Male,Asian or Pacific Islander,0.0005368406925244934
+25,Male,Black or African American,0.00219684643818464
+25,Male,White,0.0014353919640861168
+26,Female,American Indian or Alaska Native,0.0010093618309823613
+26,Female,Asian or Pacific Islander,0.00018422169126677533
+26,Female,Black or African American,0.0008370280937065633
+26,Female,White,0.0006225422856684275
+26,Male,American Indian or Alaska Native,0.001822571482673736
+26,Male,Asian or Pacific Islander,0.0005810964843662696
+26,Male,Black or African American,0.0021031272910387523
+26,Male,White,0.001526155258855768
+27,Female,American Indian or Alaska Native,0.0008727571424904382
+27,Female,Asian or Pacific Islander,0.00023575762021019102
+27,Female,Black or African American,0.0008734841565900772
+27,Female,White,0.000665643932499545
+27,Male,American Indian or Alaska Native,0.0021450532688228425
+27,Male,Asian or Pacific Islander,0.0006697069234939567
+27,Male,Black or African American,0.0023138373399513527
+27,Male,White,0.001631618610801161
+28,Female,American Indian or Alaska Native,0.0012393861083276198
+28,Female,Asian or Pacific Islander,0.00018887862251331083
+28,Female,Black or African American,0.0008487254008149778
+28,Female,White,0.0007311972286123367
+28,Male,American Indian or Alaska Native,0.002441942809699397
+28,Male,Asian or Pacific Islander,0.000613696445805883
+28,Male,Black or African American,0.0023767368949720725
+28,Male,White,0.0016475645489102805
+29,Female,American Indian or Alaska Native,0.0013500970382246224
+29,Female,Asian or Pacific Islander,0.00029493425000254254
+29,Female,Black or African American,0.0010516991765703902
+29,Female,White,0.0007859721989374954
+29,Male,American Indian or Alaska Native,0.002428984173250492
+29,Male,Asian or Pacific Islander,0.0005680249718641836
+29,Male,Black or African American,0.0024590410013018453
+29,Male,White,0.0016879255229335218
+30,Female,American Indian or Alaska Native,0.0013265276696369352
+30,Female,Asian or Pacific Islander,0.00027008076453631806
+30,Female,Black or African American,0.0010487006343359935
+30,Female,White,0.0008750496217163535
+30,Male,American Indian or Alaska Native,0.0023586759965406085
+30,Male,Asian or Pacific Islander,0.0006057497107681561
+30,Male,Black or African American,0.002655200717400766
+30,Male,White,0.0017968625894721774
+31,Female,American Indian or Alaska Native,0.0014281888779791127
+31,Female,Asian or Pacific Islander,0.00025891951301995267
+31,Female,Black or African American,0.0011440298155399348
+31,Female,White,0.0008557422467280988
+31,Male,American Indian or Alaska Native,0.002582714841095071
+31,Male,Asian or Pacific Islander,0.0006139180810037002
+31,Male,Black or African American,0.002367012481168012
+31,Male,White,0.0018315837812696862
+32,Female,American Indian or Alaska Native,0.001404536353584556
+32,Female,Asian or Pacific Islander,0.0003007042810793701
+32,Female,Black or African American,0.0013025434031416747
+32,Female,White,0.0009348286505058802
+32,Male,American Indian or Alaska Native,0.0028764759060899104
+32,Male,Asian or Pacific Islander,0.0006058854265099888
+32,Male,Black or African American,0.002721562497057134
+32,Male,White,0.0018439246949105573
+33,Female,American Indian or Alaska Native,0.0011935666756184168
+33,Female,Asian or Pacific Islander,0.00037859928636627664
+33,Female,Black or African American,0.00127256629199994
+33,Female,White,0.0009716829876675668
+33,Male,American Indian or Alaska Native,0.002287499651295785
+33,Male,Asian or Pacific Islander,0.0006494840210277391
+33,Male,Black or African American,0.0026789568573677663
+33,Male,White,0.00191460790631379
+34,Female,American Indian or Alaska Native,0.0015894849457435427
+34,Female,Asian or Pacific Islander,0.0003613549238536146
+34,Female,Black or African American,0.0013771179824753148
+34,Female,White,0.001004206439894814
+34,Male,American Indian or Alaska Native,0.002952558406191773
+34,Male,Asian or Pacific Islander,0.0005464973463891737
+34,Male,Black or African American,0.002953804111213069
+34,Male,White,0.0019836608512212193
+35,Female,American Indian or Alaska Native,0.001621475542743897
+35,Female,Asian or Pacific Islander,0.00032259910816956225
+35,Female,Black or African American,0.0015891053890998456
+35,Female,White,0.0010799056600302448
+35,Male,American Indian or Alaska Native,0.003281378178835111
+35,Male,Asian or Pacific Islander,0.0007844162635638645
+35,Male,Black or African American,0.003027953668981443
+35,Male,White,0.0020983685229279277
+36,Female,American Indian or Alaska Native,0.0014465544304576652
+36,Female,Asian or Pacific Islander,0.00035020411150080757
+36,Female,Black or African American,0.0015562861967256477
+36,Female,White,0.0011573712416835004
+36,Male,American Indian or Alaska Native,0.0026777230716074976
+36,Male,Asian or Pacific Islander,0.0007729713827535087
+36,Male,Black or African American,0.0029097767828675566
+36,Male,White,0.002144320764668833
+37,Female,American Indian or Alaska Native,0.0013283084146793525
+37,Female,Asian or Pacific Islander,0.0004932730564499517
+37,Female,Black or African American,0.001754928967160853
+37,Female,White,0.001163353200333375
+37,Male,American Indian or Alaska Native,0.0024927295388450354
+37,Male,Asian or Pacific Islander,0.0008678079656275222
+37,Male,Black or African American,0.0032583482419204527
+37,Male,White,0.0022225564814536266
+38,Female,American Indian or Alaska Native,0.0017132193226665035
+38,Female,Asian or Pacific Islander,0.00045614807103030433
+38,Female,Black or African American,0.0016458984211345327
+38,Female,White,0.0012339359257390482
+38,Male,American Indian or Alaska Native,0.002884171665897554
+38,Male,Asian or Pacific Islander,0.0008174648970955954
+38,Male,Black or African American,0.00332697598492556
+38,Male,White,0.002284515751709551
+39,Female,American Indian or Alaska Native,0.0017858914574858616
+39,Female,Asian or Pacific Islander,0.0004970319286533259
+39,Female,Black or African American,0.002039923766229206
+39,Female,White,0.001372154853770832
+39,Male,American Indian or Alaska Native,0.00254261229870986
+39,Male,Asian or Pacific Islander,0.0009458379932896629
+39,Male,Black or African American,0.0036266598533722257
+39,Male,White,0.002448512383433502
+40,Female,American Indian or Alaska Native,0.0018979122964738787
+40,Female,Asian or Pacific Islander,0.0004771297734797307
+40,Female,Black or African American,0.002038796712771274
+40,Female,White,0.0013906328498821056
+40,Male,American Indian or Alaska Native,0.003266177279047958
+40,Male,Asian or Pacific Islander,0.0008455933356675232
+40,Male,Black or African American,0.0038210493672194575
+40,Male,White,0.0024276963116503705
+41,Female,American Indian or Alaska Native,0.0018566027545233595
+41,Female,Asian or Pacific Islander,0.000569681327241231
+41,Female,Black or African American,0.0021501996375091125
+41,Female,White,0.0014550897925218612
+41,Male,American Indian or Alaska Native,0.003607644305772231
+41,Male,Asian or Pacific Islander,0.0011016304130112566
+41,Male,Black or African American,0.004110245068648635
+41,Male,White,0.002498080154995704
+42,Female,American Indian or Alaska Native,0.0019687807621994093
+42,Female,Asian or Pacific Islander,0.0006119410889020953
+42,Female,Black or African American,0.0024177342376287365
+42,Female,White,0.0015363401966570222
+42,Male,American Indian or Alaska Native,0.0030314257805921386
+42,Male,Asian or Pacific Islander,0.001034001987952209
+42,Male,Black or African American,0.003943295025170386
+42,Male,White,0.002655502698235699
+43,Female,American Indian or Alaska Native,0.0021197484101886923
+43,Female,Asian or Pacific Islander,0.0005666967362894086
+43,Female,Black or African American,0.00252738282677523
+43,Female,White,0.0016707216334527117
+43,Male,American Indian or Alaska Native,0.003038384929610749
+43,Male,Asian or Pacific Islander,0.001088442425930845
+43,Male,Black or African American,0.0041492822086594714
+43,Male,White,0.002701595491435721
+44,Female,American Indian or Alaska Native,0.002275189599133261
+44,Female,Asian or Pacific Islander,0.0007635259510041254
+44,Female,Black or African American,0.0028436855010849048
+44,Female,White,0.001741955420161288
+44,Male,American Indian or Alaska Native,0.004015924011733482
+44,Male,Asian or Pacific Islander,0.0011063716342308717
+44,Male,Black or African American,0.004727857932072571
+44,Male,White,0.003019161675837449
+45,Female,American Indian or Alaska Native,0.002641536374669808
+45,Female,Asian or Pacific Islander,0.0009098159690426255
+45,Female,Black or African American,0.0029555432741652566
+45,Female,White,0.001978625732488187
+45,Male,American Indian or Alaska Native,0.0037128712871287127
+45,Male,Asian or Pacific Islander,0.0013826177562852333
+45,Male,Black or African American,0.004988837671198064
+45,Male,White,0.0032718054557305783
+46,Female,American Indian or Alaska Native,0.0024615604152545397
+46,Female,Asian or Pacific Islander,0.0008190348445911058
+46,Female,Black or African American,0.0032375947771694554
+46,Female,White,0.0021990368257092164
+46,Male,American Indian or Alaska Native,0.004213532054183933
+46,Male,Asian or Pacific Islander,0.00163034324788628
+46,Male,Black or African American,0.005303835634058039
+46,Male,White,0.003523818662829973
+47,Female,American Indian or Alaska Native,0.002414709027562179
+47,Female,Asian or Pacific Islander,0.0009645014922475917
+47,Female,Black or African American,0.0034065235245055586
+47,Female,White,0.002266134826034306
+47,Male,American Indian or Alaska Native,0.004733809001097695
+47,Male,Asian or Pacific Islander,0.001851087255711533
+47,Male,Black or African American,0.00565800349647792
+47,Male,White,0.0037061827926546296
+48,Female,American Indian or Alaska Native,0.0028871573674690413
+48,Female,Asian or Pacific Islander,0.0010181756474203186
+48,Female,Black or African American,0.003545457483597815
+48,Female,White,0.002436260556142337
+48,Male,American Indian or Alaska Native,0.003731982059095422
+48,Male,Asian or Pacific Islander,0.0017169032559353346
+48,Male,Black or African American,0.005858120247536432
+48,Male,White,0.00395159674734266
+49,Female,American Indian or Alaska Native,0.0030959752321981426
+49,Female,Asian or Pacific Islander,0.001190322163281149
+49,Female,Black or African American,0.00410171700592083
+49,Female,White,0.002651479416277303
+49,Male,American Indian or Alaska Native,0.005099273082347836
+49,Male,Asian or Pacific Islander,0.0021806167400881056
+49,Male,Black or African American,0.006478606036990243
+49,Male,White,0.004449193872990239
+50,Female,American Indian or Alaska Native,0.0036279808019349232
+50,Female,Asian or Pacific Islander,0.0012535573926006234
+50,Female,Black or African American,0.004249474031957992
+50,Female,White,0.0029328250362555337
+50,Male,American Indian or Alaska Native,0.005525686977299881
+50,Male,Asian or Pacific Islander,0.0023669465613310775
+50,Male,Black or African American,0.007206555132900363
+50,Male,White,0.0046934302735112945
+51,Female,American Indian or Alaska Native,0.004095407834363505
+51,Female,Asian or Pacific Islander,0.001318188808577015
+51,Female,Black or African American,0.0050305037476032766
+51,Female,White,0.003269276772187226
+51,Male,American Indian or Alaska Native,0.005646245438832341
+51,Male,Asian or Pacific Islander,0.0025283078694625467
+51,Male,Black or African American,0.007613001766025488
+51,Male,White,0.005198385163691415
+52,Female,American Indian or Alaska Native,0.0041232476197616014
+52,Female,Asian or Pacific Islander,0.0015340434039768803
+52,Female,Black or African American,0.005299330984843101
+52,Female,White,0.0035118411047988774
+52,Male,American Indian or Alaska Native,0.0061933534743202415
+52,Male,Asian or Pacific Islander,0.0026697524486506592
+52,Male,Black or African American,0.00830805850961723
+52,Male,White,0.005771590472555575
+53,Female,American Indian or Alaska Native,0.004209174573731897
+53,Female,Asian or Pacific Islander,0.0015236378463057147
+53,Female,Black or African American,0.005437440290169535
+53,Female,White,0.003795764786616466
+53,Male,American Indian or Alaska Native,0.006472491909385114
+53,Male,Asian or Pacific Islander,0.002818022349272349
+53,Male,Black or African American,0.008929915031840121
+53,Male,White,0.006202574103375064
+54,Female,American Indian or Alaska Native,0.003958348191997718
+54,Female,Asian or Pacific Islander,0.0017679293391747784
+54,Female,Black or African American,0.006235495058541292
+54,Female,White,0.004198807112184497
+54,Male,American Indian or Alaska Native,0.007120572582125161
+54,Male,Asian or Pacific Islander,0.0032338938204862274
+54,Male,Black or African American,0.010141995387292326
+54,Male,White,0.006875459447271272
+55,Female,American Indian or Alaska Native,0.004873258900971015
+55,Female,Asian or Pacific Islander,0.0020587564825896164
+55,Female,Black or African American,0.006723267402079184
+55,Female,White,0.004565293649401638
+55,Male,American Indian or Alaska Native,0.008329581269698334
+55,Male,Asian or Pacific Islander,0.0032638467468140593
+55,Male,Black or African American,0.011189646060430932
+55,Male,White,0.007598295849522475
+56,Female,American Indian or Alaska Native,0.005960216469211643
+56,Female,Asian or Pacific Islander,0.002172753210803455
+56,Female,Black or African American,0.007503415209064367
+56,Female,White,0.005037918524774051
+56,Male,American Indian or Alaska Native,0.008189755079966004
+56,Male,Asian or Pacific Islander,0.004209174573731897
+56,Male,Black or African American,0.011974446244853974
+56,Male,White,0.008283570486648968
+57,Female,American Indian or Alaska Native,0.00434734554028663
+57,Female,Asian or Pacific Islander,0.0022788319224414043
+57,Female,Black or African American,0.008016581419449737
+57,Female,White,0.005408439626445825
+57,Male,American Indian or Alaska Native,0.009122141926312048
+57,Male,Asian or Pacific Islander,0.004608932110430014
+57,Male,Black or African American,0.01349744900942054
+57,Male,White,0.008928815240938632
+58,Female,American Indian or Alaska Native,0.005219053219641282
+58,Female,Asian or Pacific Islander,0.0025499842036376765
+58,Female,Black or African American,0.008528980793366055
+58,Female,White,0.005706660843506033
+58,Male,American Indian or Alaska Native,0.009943071044217423
+58,Male,Asian or Pacific Islander,0.004551048777680382
+58,Male,Black or African American,0.01373195797662402
+58,Male,White,0.00949699306265704
+59,Female,American Indian or Alaska Native,0.00679873402883601
+59,Female,Asian or Pacific Islander,0.0030488785918846737
+59,Female,Black or African American,0.009285962863039801
+59,Female,White,0.006219369730749201
+59,Male,American Indian or Alaska Native,0.00882627514215395
+59,Male,Asian or Pacific Islander,0.004896897356440568
+59,Male,Black or African American,0.015461893717694963
+59,Male,White,0.01045936138394614
+60,Female,American Indian or Alaska Native,0.006698950766747377
+60,Female,Asian or Pacific Islander,0.0027998133457769483
+60,Female,Black or African American,0.010080990132892261
+60,Female,White,0.006659460044084702
+60,Male,American Indian or Alaska Native,0.010966172894096838
+60,Male,Asian or Pacific Islander,0.005248966040053353
+60,Male,Black or African American,0.01689170743999496
+60,Male,White,0.011079486437394688
+61,Female,American Indian or Alaska Native,0.007366099296683175
+61,Female,Asian or Pacific Islander,0.0033414312602087774
+61,Female,Black or African American,0.011048929949209405
+61,Female,White,0.007128141879153777
+61,Male,American Indian or Alaska Native,0.011525301638753828
+61,Male,Asian or Pacific Islander,0.0063285453329473655
+61,Male,Black or African American,0.018494614371748656
+61,Male,White,0.011958908783361685
+62,Female,American Indian or Alaska Native,0.006635071090047393
+62,Female,Asian or Pacific Islander,0.003661166558001906
+62,Female,Black or African American,0.01184140850042626
+62,Female,White,0.007640420364260805
+62,Male,American Indian or Alaska Native,0.010861207227989235
+62,Male,Asian or Pacific Islander,0.006677252554863402
+62,Male,Black or African American,0.020173436786855316
+62,Male,White,0.013031890059603899
+63,Female,American Indian or Alaska Native,0.007691607500455125
+63,Female,Asian or Pacific Islander,0.003554184549356223
+63,Female,Black or African American,0.012271150212199126
+63,Female,White,0.008212382518783106
+63,Male,American Indian or Alaska Native,0.011832554439693745
+63,Male,Asian or Pacific Islander,0.006765857803013035
+63,Male,Black or African American,0.02126242079748253
+63,Male,White,0.013949888981764408
+64,Female,American Indian or Alaska Native,0.007565773417289013
+64,Female,Asian or Pacific Islander,0.0042029232271998136
+64,Female,Black or African American,0.013483950028374277
+64,Female,White,0.008669248909470803
+64,Male,American Indian or Alaska Native,0.01225382932166302
+64,Male,Asian or Pacific Islander,0.007732790369059938
+64,Male,Black or African American,0.023047078281748342
+64,Male,White,0.014863842937888243
+65,Female,American Indian or Alaska Native,0.00903598634095088
+65,Female,Asian or Pacific Islander,0.0047978259851005015
+65,Female,Black or African American,0.014268607302920639
+65,Female,White,0.009457764522641325
+65,Male,American Indian or Alaska Native,0.014090295309105853
+65,Male,Asian or Pacific Islander,0.008700824595574943
+65,Male,Black or African American,0.025320068042436993
+65,Male,White,0.015732382217100403
+66,Female,American Indian or Alaska Native,0.009321129765848727
+66,Female,Asian or Pacific Islander,0.0049430220512061565
+66,Female,Black or African American,0.015470826972483896
+66,Female,White,0.010168868707614676
+66,Male,American Indian or Alaska Native,0.0157338148052618
+66,Male,Asian or Pacific Islander,0.008941544651838605
+66,Male,Black or African American,0.026752235361984424
+66,Male,White,0.017004249271492057
+67,Female,American Indian or Alaska Native,0.009819393301770998
+67,Female,Asian or Pacific Islander,0.005331263468589462
+67,Female,Black or African American,0.01616177831498234
+67,Female,White,0.01102915530283277
+67,Male,American Indian or Alaska Native,0.015855039637599093
+67,Male,Asian or Pacific Islander,0.00929060703881584
+67,Male,Black or African American,0.02853586547289678
+67,Male,White,0.01779725939196299
+68,Female,American Indian or Alaska Native,0.012857405253168431
+68,Female,Asian or Pacific Islander,0.005860457749267443
+68,Female,Black or African American,0.016585461400974465
+68,Female,White,0.011889776354485359
+68,Male,American Indian or Alaska Native,0.01610361132049613
+68,Male,Asian or Pacific Islander,0.010233550979407332
+68,Male,Black or African American,0.029079201216318084
+68,Male,White,0.018644306099447054
+69,Female,American Indian or Alaska Native,0.0120086619856946
+69,Female,Asian or Pacific Islander,0.006355588702616816
+69,Female,Black or African American,0.01825068870523416
+69,Female,White,0.013158944946936634
+69,Male,American Indian or Alaska Native,0.020819539468844257
+69,Male,Asian or Pacific Islander,0.01103031628440994
+69,Male,Black or African American,0.031004431210893336
+69,Male,White,0.020703019114552176
+70,Female,American Indian or Alaska Native,0.013046495489243581
+70,Female,Asian or Pacific Islander,0.00745390349156532
+70,Female,Black or African American,0.01973089131717183
+70,Female,White,0.014692152649352306
+70,Male,American Indian or Alaska Native,0.020261179263949346
+70,Male,Asian or Pacific Islander,0.011681262213215604
+70,Male,Black or African American,0.032311802137111295
+70,Male,White,0.022251922267702076
+71,Female,American Indian or Alaska Native,0.01318039327443716
+71,Female,Asian or Pacific Islander,0.008000693558574737
+71,Female,Black or African American,0.021137260983145063
+71,Female,White,0.015718576567334983
+71,Male,American Indian or Alaska Native,0.019417475728155338
+71,Male,Asian or Pacific Islander,0.012676651485985258
+71,Male,Black or African American,0.03381754886940619
+71,Male,White,0.023451617176706598
+72,Female,American Indian or Alaska Native,0.016369588941433248
+72,Female,Asian or Pacific Islander,0.009069729959413325
+72,Female,Black or African American,0.02390269620036979
+72,Female,White,0.018309636990002827
+72,Male,American Indian or Alaska Native,0.023945147679324895
+72,Male,Asian or Pacific Islander,0.01532945523725899
+72,Male,Black or African American,0.036644501278772376
+72,Male,White,0.027152543520677877
+73,Female,American Indian or Alaska Native,0.017847025495750707
+73,Female,Asian or Pacific Islander,0.009743324300459762
+73,Female,Black or African American,0.023963613323678495
+73,Female,White,0.019713097276684025
+73,Male,American Indian or Alaska Native,0.022422022422022424
+73,Male,Asian or Pacific Islander,0.014831079779652529
+73,Male,Black or African American,0.03979433797266971
+73,Male,White,0.02865444452876828
+74,Female,American Indian or Alaska Native,0.022215459525258673
+74,Female,Asian or Pacific Islander,0.011041614544241515
+74,Female,Black or African American,0.026978343969810338
+74,Female,White,0.022244319085999987
+74,Male,American Indian or Alaska Native,0.023760455812825796
+74,Male,Asian or Pacific Islander,0.016647447321522173
+74,Male,Black or African American,0.04167098460511014
+74,Male,White,0.032227700834132685
+75,Female,American Indian or Alaska Native,0.02045405868494324
+75,Female,Asian or Pacific Islander,0.012590914074777968
+75,Female,Black or African American,0.02931159390118995
+75,Female,White,0.0242109850561624
+75,Male,American Indian or Alaska Native,0.025717625665670867
+75,Male,Asian or Pacific Islander,0.02022990586531499
+75,Male,Black or African American,0.046537032991042164
+75,Male,White,0.034535991094305885
+76,Female,American Indian or Alaska Native,0.02226027397260274
+76,Female,Asian or Pacific Islander,0.014012375059495479
+76,Female,Black or African American,0.03230812641083521
+76,Female,White,0.02691272629254126
+76,Male,American Indian or Alaska Native,0.033445797271527064
+76,Male,Asian or Pacific Islander,0.02277462809516887
+76,Male,Black or African American,0.04932983280364792
+76,Male,White,0.03830459374780981
+77,Female,American Indian or Alaska Native,0.025490457760576537
+77,Female,Asian or Pacific Islander,0.015745735529960635
+77,Female,Black or African American,0.03351657738962644
+77,Female,White,0.02977165891176154
+77,Male,American Indian or Alaska Native,0.03515944399018806
+77,Male,Asian or Pacific Islander,0.02201588721132095
+77,Male,Black or African American,0.05296405022824032
+77,Male,White,0.04278325115971228
+78,Female,American Indian or Alaska Native,0.024812136679427194
+78,Female,Asian or Pacific Islander,0.01758126985508508
+78,Female,Black or African American,0.036446950260259944
+78,Female,White,0.03260391410653817
+78,Male,American Indian or Alaska Native,0.03195785776997366
+78,Male,Asian or Pacific Islander,0.025855968646235915
+78,Male,Black or African American,0.05499722648220054
+78,Male,White,0.04542818999770916
+79,Female,American Indian or Alaska Native,0.032196059586737144
+79,Female,Asian or Pacific Islander,0.020510561225738553
+79,Female,Black or African American,0.04063879666321564
+79,Female,White,0.03669169769941184
+79,Male,American Indian or Alaska Native,0.037419888360554064
+79,Male,Asian or Pacific Islander,0.03102545365972476
+79,Male,Black or African American,0.061232795619357704
+79,Male,White,0.05073625247998149
+80,Female,American Indian or Alaska Native,0.03128699475731439
+80,Female,Asian or Pacific Islander,0.023254001247141966
+80,Female,Black or African American,0.043380712441402826
+80,Female,White,0.040772889212710904
+80,Male,American Indian or Alaska Native,0.04422990570273911
+80,Male,Asian or Pacific Islander,0.030718305196954652
+80,Male,Black or African American,0.06545217426743286
+80,Male,White,0.05614767748712562
+81,Female,American Indian or Alaska Native,0.03824608846822484
+81,Female,Asian or Pacific Islander,0.026395194720961055
+81,Female,Black or African American,0.04815268057255215
+81,Female,White,0.04608894644855465
+81,Male,American Indian or Alaska Native,0.04226082447498056
+81,Male,Asian or Pacific Islander,0.036578647765250286
+81,Male,Black or African American,0.07086451967314426
+81,Male,White,0.06234654075138575
+82,Female,American Indian or Alaska Native,0.035670103092783505
+82,Female,Asian or Pacific Islander,0.030473354803427114
+82,Female,Black or African American,0.05472859702872999
+82,Female,White,0.051583843117127236
+82,Male,American Indian or Alaska Native,0.05388180764774044
+82,Male,Asian or Pacific Islander,0.04126272912423625
+82,Male,Black or African American,0.07608398558827184
+82,Male,White,0.06931006289168061
+83,Female,American Indian or Alaska Native,0.03771043771043771
+83,Female,Asian or Pacific Islander,0.035706088724220465
+83,Female,Black or African American,0.05975367997127827
+83,Female,White,0.057140302871476825
+83,Male,American Indian or Alaska Native,0.05770470664087685
+83,Male,Asian or Pacific Islander,0.04620896063849084
+83,Male,Black or African American,0.08407990651605364
+83,Male,White,0.0757014934044732
+84,Female,American Indian or Alaska Native,0.04373490743225114
+84,Female,Asian or Pacific Islander,0.041815833179553424
+84,Female,Black or African American,0.06542089276515622
+84,Female,White,0.06517765769783657
+84,Male,American Indian or Alaska Native,0.06382978723404255
+84,Male,Asian or Pacific Islander,0.052702843453806894
+84,Male,Black or African American,0.08937118877450659
+84,Male,White,0.08684438982592226
