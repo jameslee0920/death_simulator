@@ -23,7 +23,7 @@ def fn_send_input_options():
            'weight': ['less than 150lbs', 'around 160lbs', 'around 170lbs', 'around 180lbs', 'around 190lbs', '200lbs or larger'],
            'diabetic': ['Yes', 'No', 'Yes', 'No', 'Yes', 'No'],
            'mcdonalds': ['Today', 'Yesterday', 'Recently', 'Last Month', 'Never', 'McDonalds?'],
-           'new_gender': ['Female', 'Male', 'Unspecified', 'Non-Binary']
+           'new_gender': ['Female', 'Male']#removed the other gender options for the time being
         }
     
     #s is a dict
@@ -73,8 +73,13 @@ def death_simulator(collected_inputs_dict):
     #curr_age = today.year - birthDate.year - ((today.month, today.day) < (birthDate.month, birthDate.day))
     
     #Subset data as per the given input parameters
-    data_subset = deathProb.loc[(deathProb['age']>= curr_age)&(deathProb['gender'] == gender)& (deathProb['race'] == race)]
-    death_Prob = data_subset['annual_death_prob'].to_list()
+    if(curr_age <= 85):
+        data_subset = deathProb.loc[(deathProb['age']>= curr_age)&(deathProb['gender'] == gender)& (deathProb['race'] == race)]
+        death_Prob = data_subset['annual_death_prob'].to_list()
+    else:
+        data_subset = deathProb.loc[(deathProb['age']>= 85)&(deathProb['gender'] == gender)& (deathProb['race'] == race)]
+        death_Prob = data_subset['annual_death_prob'].to_list()
+    
     
     #indexed death_likelihood as per the selected occupation of the user
     job_likelihood = jobIndex.loc[(jobIndex['occupation'] == job)].iloc[0]['indexed_likelihood']
@@ -113,10 +118,15 @@ def death_simulator(collected_inputs_dict):
                             
     #Code after this line needs to be modified to include cause of death for ages > 85
     if(death_age > 85):
-        cod = causeOfDeath.loc[(causeOfDeath['age']== 85)&(causeOfDeath['gender'] == gender)& (causeOfDeath['race'] == race)]\
-                      .sort_values(by='cause_of_death_prob', ascending=False)
-        mechanism = cod.iloc[0]['mechanism_of_death']
-        cause = cod.iloc[0]['cause_of_death']
+        if(death_age <= 91):
+            cod = causeOfDeath.loc[(causeOfDeath['age']== death_age)].sort_values(by='cause_of_death_prob', ascending=False)
+            mechanism = cod.iloc[0]['mechanism_of_death']
+            cause = cod.iloc[0]['cause_of_death']
+        elif(death_age > 91):
+            cod = causeOfDeath.loc[(causeOfDeath['age']== 91)].sort_values(by='cause_of_death_prob', ascending=False)
+            mechanism = cod.iloc[0]['mechanism_of_death']
+            cause = cod.iloc[0]['cause_of_death']
+
     else:
         cod = causeOfDeath.loc[(causeOfDeath['age']== death_age)&(causeOfDeath['gender'] == gender)& (causeOfDeath['race'] == race)]\
                       .sort_values(by='cause_of_death_prob', ascending=False)
