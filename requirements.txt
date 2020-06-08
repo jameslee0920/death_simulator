@@ -5,4 +5,4 @@ pandas
 ipywidgets
 jupyterthemes
 pdfrw
-os
+scikit-learn
