@@ -11,7 +11,6 @@ Requirements:
     pdfrw (version 0.4 was used on creation of this module)
 """
 
-import os
 
 import pdfrw
 
