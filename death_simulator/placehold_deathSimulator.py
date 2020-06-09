@@ -36,7 +36,7 @@ def fn_send_input_options():
     s["age"] = list(df.age.unique())
     #MAYBE ADD AN OPTION WHERE THEY OPT OUT OF RACE
     s["race"] = list(df.race.unique())
-
+    s["name"] = ""
     #s_df = pd.DataFrame(s, columns = ['exercise', 'bmi', 'height', 'weight', 'diabetic', 'mcdonalds', 'new_gender'])
     
     #df = pd.read_csv(input_csv)
@@ -156,8 +156,8 @@ def fn_send_output_string(collected_inputs_dict):
     disc = death_simulator(collected_inputs_dict)
     data_dict = {
        'introduction': 'The team would like to make an announcement of your death',
-       'name': 'Grim Reaper',#replace with collected_inputs_dict['name']
-       'result': disc
+       'name': collected_inputs_dict['name'],#replace with collected_inputs_dict['name']
+       'description': disc
     }
     
     #data_dict = collected_inputs_dict
