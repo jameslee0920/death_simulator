@@ -119,3 +119,6 @@ def create_deaths_dataset():
     )
     deaths = deaths.drop("pred_population", axis=1)
     return deaths
+
+deaths = create_deaths_dataset()
+deaths.to_csv('../data/deaths_age_gender_race_mechanism_cause.csv', index = False)
