@@ -75,10 +75,10 @@ def death_simulator(collected_inputs_dict):
     #Subset data as per the given input parameters
     if(curr_age <= 85):
         data_subset = deathProb.loc[(deathProb['age']>= curr_age)&(deathProb['gender'] == gender)& (deathProb['race'] == race)]
-        death_Prob = data_subset['annual_death_prob'].to_list()
+        death_Prob = data_subset['annual_death_prob'].tolist()
     else:
         data_subset = deathProb.loc[(deathProb['age']>= 85)&(deathProb['gender'] == gender)& (deathProb['race'] == race)]
-        death_Prob = data_subset['annual_death_prob'].to_list()
+        death_Prob = data_subset['annual_death_prob'].tolist()
     
     
     #indexed death_likelihood as per the selected occupation of the user
