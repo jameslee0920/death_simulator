@@ -7,28 +7,28 @@ How? What wonders of technology can be employed to achieve such a monumental tas
 
 ### Organization of the project
 
-[TODO: update with final directory structure] The project has the following repository structure:  
-
 ```
 death_simulator/
   |- README.md
   |- death_simulator/
-     |- data/
-        |-Merged_Data.csv
-        |-Database_HousePrice.py
-     |- html_landing_page/ 
-        |- ...
-     |- Scripts/
-        |-part1_predict_price.py
-        |-part2_bid_price.py
-        |-part3_monthly_cost.py
-        |-house_price_model_2
-     |- tests/
-        |- ...
-  |- examples
-     |- User_Guide
-  |- logos
-     |- logo_v1  
+     |- death_simulator/
+        |-print_death_cert.py
+        |-probability_converter.py
+        |-death_simulator.py
+        |-create_death_data.py
+        |-interactive_frontend.ipynb
+   |- tests/
+     |-...
+  |-data
+     |-annualCauseOfDeathProbs_age_gender_race.csv
+     |-annualDeathProbs_age_gender_race.csv
+     |-job_indexed_likelihood.csv
+     |-deaths_age_gender_race_mechanism_cause.csv
+     |-occupational_hazards_data.csv
+  |- data_raw
+     |-mortality_ages0-10.txt
+     |-mortality_ages11-15.txt
+     |-...  
   |- doc/
      |- FunctionalSpec
      |- Designspec
@@ -39,21 +39,5 @@ death_simulator/
   |- LICENSE
   |- requirements.txt
 ```
-### Installation
 
-[TODO: update with actual steps] To install FirstStop perform following steps:
-
-* clone the repo: git clone https://github.com/sliwhu/UWHousingTeam
-* run the setup.py file: python setup.py install
-* run requirements.txt to ensure all dependencies exist : pip install -r requirements.txt
-* go to Scripts folder: cd UWHousing/Scripts
-* properly set data path os.environ ["SALES_DATA_PATH"](\UWHousingTeam\data) and 
-  os.environ["SALES_DATA_FILE"] ('Merged_Data.csv') follow instructions in the house_price_model_2.py file
-* run bokeh server: bokeh serve --port 5001 part1_predict_price.py
-* Open another terminal and go to Scripts folder: cd UWHousing/Scripts
-* run bokeh server: bokeh serve --port 5002 part2_bid_price.py
-* Open another terminal and go to Scripts folder: cd UWHousing/Scripts
-* run bokeh server: bokeh serve --port 5003 part3_monthly_cost.py
-* go to landing page http://housing-prediction.azurewebsites.net/UWHousingTeam/html_landing_page/
-* follow the User_Guide in examples folder 
 	

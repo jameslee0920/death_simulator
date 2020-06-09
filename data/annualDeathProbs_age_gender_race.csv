@@ -687,31 +687,123 @@ age,gender,race,annual_death_prob
 85,Male,Asian or Pacific Islander,0.07166861484511981
 85,Male,Black or African American,0.16099842098870398
 85,Male,White,0.13250267329954904
-86,Female,American Indian or Alaska Native,0.1041147132169576
-86,Female,Asian or Pacific Islander,0.0730563875504623
-86,Female,Black or African American,0.11034190876386832
-86,Female,White,0.11154020968888319
-86,Male,American Indian or Alaska Native,0.3726541554959786
-86,Male,Asian or Pacific Islander,0.09412672388851384
-86,Male,Black or African American,0.25495307612095935
-86,Male,White,0.18244371392751707
-87,Female,American Indian or Alaska Native,0.1643835616438356
-87,Female,Asian or Pacific Islander,0.10442120066801441
-87,Female,Black or African American,0.13837181433250778
-87,Female,White,0.14529050557474993
-87,Male,Asian or Pacific Islander,0.1279432624113475
-87,Male,Black or African American,0.825414364640884
-87,Male,White,0.2866855265559409
-88,Female,American Indian or Alaska Native,0.9662162162162162
-88,Female,Asian or Pacific Islander,0.17644672796106003
-88,Female,Black or African American,0.2086178478926301
-88,Female,White,0.19685323321642048
-88,Male,Asian or Pacific Islander,0.2508710801393728
-88,Male,White,0.6742202253044214
-89,Female,Asian or Pacific Islander,0.36438195664909195
-89,Female,Black or African American,0.38756569383875655
-89,Female,White,0.2841572679910689
-89,Male,Asian or Pacific Islander,2.128640776699029
-90,Female,Black or African American,3.6792873051224944
-90,Female,White,0.5207876325592866
-91,Female,White,2.73436955461072
+86,Female,American Indian or Alaska Native,inf
+86,Female,Asian or Pacific Islander,inf
+86,Female,Black or African American,inf
+86,Female,White,2.5486164354917404
+86,Male,American Indian or Alaska Native,inf
+86,Male,Asian or Pacific Islander,inf
+86,Male,Black or African American,inf
+86,Male,White,inf
+87,Female,American Indian or Alaska Native,inf
+87,Female,Asian or Pacific Islander,inf
+87,Female,Black or African American,inf
+87,Female,White,inf
+87,Male,American Indian or Alaska Native,inf
+87,Male,Asian or Pacific Islander,inf
+87,Male,Black or African American,inf
+87,Male,White,inf
+88,Female,American Indian or Alaska Native,inf
+88,Female,Asian or Pacific Islander,inf
+88,Female,Black or African American,inf
+88,Female,White,inf
+88,Male,American Indian or Alaska Native,inf
+88,Male,Asian or Pacific Islander,inf
+88,Male,Black or African American,inf
+88,Male,White,inf
+89,Female,American Indian or Alaska Native,inf
+89,Female,Asian or Pacific Islander,inf
+89,Female,Black or African American,inf
+89,Female,White,inf
+89,Male,American Indian or Alaska Native,inf
+89,Male,Asian or Pacific Islander,inf
+89,Male,Black or African American,inf
+89,Male,White,inf
+90,Female,American Indian or Alaska Native,inf
+90,Female,Asian or Pacific Islander,inf
+90,Female,Black or African American,inf
+90,Female,White,inf
+90,Male,American Indian or Alaska Native,inf
+90,Male,Asian or Pacific Islander,inf
+90,Male,Black or African American,inf
+90,Male,White,inf
+91,Female,American Indian or Alaska Native,inf
+91,Female,Asian or Pacific Islander,inf
+91,Female,Black or African American,inf
+91,Female,White,inf
+91,Male,American Indian or Alaska Native,inf
+91,Male,Asian or Pacific Islander,inf
+91,Male,Black or African American,inf
+91,Male,White,inf
+92,Female,American Indian or Alaska Native,inf
+92,Female,Asian or Pacific Islander,inf
+92,Female,Black or African American,inf
+92,Female,White,inf
+92,Male,American Indian or Alaska Native,inf
+92,Male,Asian or Pacific Islander,inf
+92,Male,Black or African American,inf
+92,Male,White,inf
+93,Female,American Indian or Alaska Native,inf
+93,Female,Asian or Pacific Islander,inf
+93,Female,Black or African American,inf
+93,Female,White,inf
+93,Male,American Indian or Alaska Native,inf
+93,Male,Asian or Pacific Islander,inf
+93,Male,Black or African American,inf
+93,Male,White,inf
+94,Female,American Indian or Alaska Native,inf
+94,Female,Asian or Pacific Islander,inf
+94,Female,Black or African American,inf
+94,Female,White,inf
+94,Male,American Indian or Alaska Native,inf
+94,Male,Asian or Pacific Islander,inf
+94,Male,Black or African American,inf
+94,Male,White,inf
+95,Female,American Indian or Alaska Native,inf
+95,Female,Asian or Pacific Islander,inf
+95,Female,Black or African American,inf
+95,Female,White,inf
+95,Male,American Indian or Alaska Native,inf
+95,Male,Asian or Pacific Islander,inf
+95,Male,Black or African American,inf
+95,Male,White,inf
+96,Female,American Indian or Alaska Native,0.04488778054862843
+96,Female,Asian or Pacific Islander,0.0399791639536398
+96,Female,Black or African American,0.05118050727047371
+96,Female,White,0.07016371839338172
+96,Male,American Indian or Alaska Native,0.06166219839142091
+96,Male,Asian or Pacific Islander,0.031150544893432348
+96,Male,Black or African American,0.06256517205422316
+96,Male,White,0.05784307494988127
+97,Female,American Indian or Alaska Native,0.0502283105022831
+97,Female,Asian or Pacific Islander,0.050804254197064254
+97,Female,Black or African American,0.05995845649916114
+97,Female,White,0.07053680541935095
+97,Male,American Indian or Alaska Native,inf
+97,Male,Asian or Pacific Islander,0.0424113475177305
+97,Male,Black or African American,0.1432780847145488
+97,Male,White,0.06737543347326154
+98,Female,American Indian or Alaska Native,0.28378378378378377
+98,Female,Asian or Pacific Islander,0.055570578691184425
+98,Female,Black or African American,0.06893101012479397
+98,Female,White,0.06974756706021834
+98,Male,American Indian or Alaska Native,inf
+98,Male,Asian or Pacific Islander,0.05896542481908336
+98,Male,Black or African American,inf
+98,Male,White,0.1087669032580148
+99,Female,American Indian or Alaska Native,inf
+99,Female,Asian or Pacific Islander,0.09373169302870533
+99,Female,Black or African American,0.09862462260986246
+99,Female,White,0.07165655235587107
+99,Male,American Indian or Alaska Native,inf
+99,Male,Asian or Pacific Islander,0.3446601941747573
+99,Male,Black or African American,inf
+99,Male,White,inf
+100,Female,American Indian or Alaska Native,inf
+100,Female,Asian or Pacific Islander,inf
+100,Female,Black or African American,2.5066815144766146
+100,Female,White,0.28005867005879986
+100,Male,American Indian or Alaska Native,inf
+100,Male,Asian or Pacific Islander,inf
+100,Male,Black or African American,inf
+100,Male,White,inf

@@ -1,22 +1,22 @@
-occupation,indexed_likelihood
-"Farming, fishing, and forestry occupations",5.589363899360439
-Construction and extraction occupations,3.254263556254556
-Transportation and material moving occupations,3.115047751691344
-Protective service occupations,1.7744326185838188
-"Installation, maintenance, and repair occupations",1.6092294944131142
-Building and grounds cleaning and maintenance occupations,1.422785847935166
-Management occupations,0.888539343521404
-"Arts, design, entertainment, sports, and media occupations",0.572964972399956
-Production occupations,0.5570914934032462
-Sales and related occupations,0.358578009409666
-"Life, physical, and social science occupations",0.3184053693513217
-Legal occupations,0.26080380364772077
-Architecture and engineering occupations,0.26012739511658556
-Personal care and service occupations,0.2071625773192771
-Healthcare support occupations,0.17351469618033102
-Food preparation and serving related occupations,0.17127338003016793
-Healthcare practitioners and technical occupations,0.16701599166402498
-Business and financial operations occupations,0.10352807876580226
-Office and administrative support occupations,0.07028783976082649
-"Education, training, and library occupations",0.06549968440734921
-Computer and mathematical occupations,0.06008419678388227
+occupation,mechanism_of_death,deaths,population,deaths_per_capita,indexed_likelihood
+Management occupations,Total,387,10193,0.037967232414402044,0.888539343521404
+Business and financial operations occupations,Total,38,8590,0.0044237485448195574,0.10352807876580226
+Computer and mathematical occupations,Total,12,4674,0.0025673940949935813,0.06008419678388227
+Architecture and engineering occupations,Total,30,2699,0.011115227862171175,0.26012739511658556
+"Life, physical, and social science occupations",Total,18,1323,0.013605442176870748,0.3184053693513217
+Legal occupations,Total,15,1346,0.011144130757800892,0.26080380364772077
+"Education, training, and library occupations",Total,27,9647,0.0027987975536436197,0.06549968440734921
+"Arts, design, entertainment, sports, and media occupations",Total,71,2900,0.024482758620689656,0.572964972399956
+Healthcare practitioners and technical occupations,Total,65,9108,0.007136583223539745,0.16701599166402498
+Healthcare support occupations,Total,32,4316,0.0074142724745134385,0.17351469618033102
+Protective service occupations,Total,270,3561,0.07582139848357203,1.7744326185838188
+Food preparation and serving related occupations,Total,100,13664,0.007318501170960188,0.17127338003016793
+Building and grounds cleaning and maintenance occupations,Total,350,5757,0.06079555323953448,1.422785847935166
+Personal care and service occupations,Total,63,7117,0.008852044400730645,0.2071625773192771
+Sales and related occupations,Total,241,15729,0.015322016657130141,0.358578009409666
+Office and administrative support occupations,Total,69,22974,0.003003395142334813,0.07028783976082649
+"Farming, fishing, and forestry occupations",Total,262,1097,0.23883318140382861,5.589363899360439
+Construction and extraction occupations,Total,1003,7213,0.13905448495771525,3.254263556254556
+"Installation, maintenance, and repair occupations",Total,420,6108,0.068762278978389,1.6092294944131142
+Production occupations,Total,225,9452,0.023804485823106222,0.5570914934032462
+Transportation and material moving occupations,Total,1443,10841,0.13310580204778158,3.115047751691344
