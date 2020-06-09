@@ -120,32 +120,35 @@ def death_simulator(collected_inputs_dict):
     if(death_age > 85):
         if(death_age <= 91):
             cod = causeOfDeath.loc[(causeOfDeath['age']== death_age)].sort_values(by='cause_of_death_prob', ascending=False)
-            mechanism = cod.iloc[0]['mechanism_of_death']
-            cause = cod.iloc[0]['cause_of_death']
+            rand = random.randrange(len(cod.index))
+            mechanism = cod.iloc[rand]['mechanism_of_death']
+            cause = cod.iloc[rand]['cause_of_death']
         elif(death_age > 91):
             cod = causeOfDeath.loc[(causeOfDeath['age']== 91)].sort_values(by='cause_of_death_prob', ascending=False)
-            mechanism = cod.iloc[0]['mechanism_of_death']
-            cause = cod.iloc[0]['cause_of_death']
+            rand = random.randrange(len(cod.index))
+            mechanism = cod.iloc[rand]['mechanism_of_death']
+            cause = cod.iloc[rand]['cause_of_death']
 
     else:
         cod = causeOfDeath.loc[(causeOfDeath['age']== death_age)&(causeOfDeath['gender'] == gender)& (causeOfDeath['race'] == race)]\
                       .sort_values(by='cause_of_death_prob', ascending=False)
-        mechanism = cod.iloc[0]['mechanism_of_death']
-        cause = cod.iloc[0]['cause_of_death']
+        rand = random.randrange(len(cod.index))
+        mechanism = cod.iloc[rand]['mechanism_of_death']
+        cause = cod.iloc[rand]['cause_of_death']
   
     if(1 in total_days) == True:
-        c = total_days.index(1)
-        death_date = today + timedelta(c)
+        ndays = total_days.index(1)
+        death_date = today + timedelta(ndays)
         if(death_age>= 110):
             proxy_death_age = 110
-            v = 'You will die on '+str(death_date)+' from "'+str(mechanism)+'", at the age of '+ str(proxy_death_age)+'.Cause of death will be '+str(cause)+'. You have '+ str(int(c/365))+' more years to live, make the most of it!'
-            return v
+            result = 'You will die on '+str(death_date)+' from "'+str(mechanism)+'", at the age of '+ str(proxy_death_age)+'.Cause of death will be '+str(cause)+'. You have '+ str(int(ndays/365))+' more years to live, make the most of it!'
+            return result
         else:
-            v = 'You will die on '+str(death_date)+' from "'+str(mechanism)+'", at the age of '+ str(death_age)+'.Cause of death will be '+str(cause)+'. You have '+ str(int(c/365))+' more years to live, make the most of it!'
-        return v
+            result = 'You will die on '+str(death_date)+' from "'+str(mechanism)+'", at the age of '+ str(death_age)+'.Cause of death will be '+str(cause)+'. You have '+ str(int(ndays/365))+' more years to live, make the most of it!'
+        return result
     else:
-        v = 'You will get the surprise of death as a SURPRISE!'
-        return v
+        result = 'You will get the surprise of death as a SURPRISE!'
+        return result
     
     
 
@@ -167,7 +170,6 @@ def fn_send_output_string(collected_inputs_dict):
     print_death_cert.write_fillable_pdf(input_pdf_path, output_pdf_path, data_dict)
     #return data_dict["description"]
     return data_dict
-
 
 
     #return "You will die of {cause} at the age of {age_of_death} years old on {date_of_death}".format(
