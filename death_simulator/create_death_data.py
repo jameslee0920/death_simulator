@@ -36,7 +36,7 @@ def combine_txt_data(filepath):
         df = combine_txt_data("../data_raw/")
     """
     df_list = []
-    for file in os.listdir("../data_raw/"):
+    for file in os.listdir(filepath):
         if file.endswith(".txt"):
             df_list.append(
                 pd.read_csv(
@@ -119,3 +119,7 @@ def create_deaths_dataset():
     )
     deaths = deaths.drop("pred_population", axis=1)
     return deaths
+
+DEATHS_OUTPUT = create_deaths_dataset()
+DEATHS_OUTPUT.to_csv('../data/deaths_age_gender_race_mechanism_cause.csv',
+                     index=False)
