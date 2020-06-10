@@ -15,7 +15,7 @@ import time
 from datetime import date
 from datetime import datetime, timedelta
 import random
-
+from numpy import inf
 
 def fn_send_input_options():
     df = pd.read_csv('../data/deaths_age_gender_race_mechanism_cause.csv')
@@ -33,8 +33,8 @@ def fn_send_input_options():
          'new_gender': ['Female', 'Male']
         }
     s["occupation"] = list(occ_df.occupation.unique())
-    s["age"] = list(df.age.unique())
-    s["race"] = list(df.race.unique())
+    s["age"] = sorted(list(df.age.unique()))
+    s["race"] = sorted(list(df.race.unique()))
     s["name"] = ""
     return s
 
@@ -50,6 +50,7 @@ def death_simulator(collected_inputs_dict):
     """
     causeOfDeath = pd.read_csv('../data/annualCauseofDeathProbs_age_gender_race.csv')
     deathProb = pd.read_csv('../data/annualDeathProbs_age_gender_race.csv')
+    deathProb[deathProb.annual_death_prob == inf] = 1.0
     jobIndex = pd.read_csv('../data/job_indexed_likelihood.csv')
     
     curr_age = collected_inputs_dict['age']
